@@ -2,7 +2,7 @@ import yts from 'yt-search';
 
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     if (!text) {
-        return conn.reply(m.chat, '*Que quieres que busque tu botsita nakano😘*', m);
+        return conn.reply(m.chat, '𝗤𝘂𝗲 𝗾𝘂𝗶𝗲𝗿𝗲𝘀 𝗾𝘂𝗲 𝗯𝘂𝘀𝗾𝘂𝗲  𝗙𝘂𝘁𝗮𝗿𝗼 𝗕𝗼𝘁', m);
     }
 
     await m.react('⏳');
@@ -23,7 +23,7 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     txt += `> *𝚅𝚒𝚜𝚒𝚝𝚊𝚜* : _${views.toLocaleString()}_\n`;
     txt += `> *𝙻𝚒𝚗𝚔* : _https://www.youtube.com/watch?v=${videoId}_\n`;
     txt += '┗─══──━══─| ✠ |─══━─═──┛ \n';
-    txt += '💞 NAKANO 💖';
+    txt += '☁ 𝐅𝐮𝐭𝐚𝐫𝐨 𝐁𝐨𝐭 ☁';
 
     await conn.sendButton2(m.chat, txt, '. ', thumbnail, [
         ['MP3', `${usedPrefix}ytmp3 ${url}`],
