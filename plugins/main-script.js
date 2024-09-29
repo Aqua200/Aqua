@@ -2,17 +2,17 @@
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, args }) => {
-let res = await fetch('https://api.github.com/repos/LOBO50K/THE-QUINTUPLETS-')
+let res = await fetch('https://api.github.com/repos/ianalejandrook14x/FUTARO-BOT')
 let json = await res.json()
 try {
 let txt = '`- 乂  S C R I P T`\n\n'
-    txt += `	•   *𝕹𝖔𝖒𝖇𝖗𝖊* : ${json.name}\n`
-    txt += `	•   *𝖁𝖎𝖘𝖎𝖙𝖆𝖘* : ${json.watchers_count}\n`
-    txt += `	•   *𝕻𝖊𝖘𝖔* : ${(json.size / 1024).toFixed(2)} MB\n`
-    txt += `	•   *𝕬𝖈𝖙𝖚𝖆𝖑𝖎𝖟𝖆𝖉𝖔* : ${moment(json.updated_at).format('DD/MM/YY - HH:mm:ss')}\n`
-    txt += `	•   *𝖚𝖗𝖑* : ${json.html_url}\n`
-    txt += `	•   *𝕱𝖔𝖗𝖐𝖘* : ${json.forks_count}\n`
-    txt += `	•   *𝕾𝖙𝖆𝖗𝖘* : ${json.stargazers_count}\n\n`
+    txt += `	•   *𝗡𝗼𝗺𝗯𝗿𝗲* : ${json.name}\n`
+    txt += `	•   *𝗩𝗶𝘀𝗶𝘁𝗮𝘀* : ${json.watchers_count}\n`
+    txt += `	•   *𝗣𝗲𝘀𝗼* : ${(json.size / 1024).toFixed(2)} MB\n`
+    txt += `	•   *𝗔𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗱𝗼* : ${moment(json.updated_at).format('DD/MM/YY - HH:mm:ss')}\n`
+    txt += `	•   *𝗨𝗥𝗟* : ${json.html_url}\n`
+    txt += `	•   *𝗳𝗼𝗿𝗸𝘀* : ${json.forks_count}\n`
+    txt += `	•   *𝘀𝘁𝗮𝗿𝘀* : ${json.stargazers_count}\n\n`
     txt += `> 💌 *${textbot}*`
 let img = await (await fetch(`https://tinyurl.com/26ehamvg`)).buffer()
 
