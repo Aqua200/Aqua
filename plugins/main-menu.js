@@ -30,31 +30,27 @@ const defaultMenu = {
   before: `
 
 
- "> /)_/)
-(,,>.<)  <(𝑯𝒐𝒍𝒂!)
-/ >❤️ 𝑴𝒊 𝒏𝒐𝒎𝒃𝒓𝒆 𝒆𝒔 *𝑵𝒂𝒌𝒂𝒏𝒐*, %greeting "
+𝗛𝗼𝗹𝗮 𝗺𝗶 𝗻𝗼𝗺𝗯𝗿𝗲 𝗲𝘀 𝗙𝘂𝘁𝗮𝗿𝗼, %greeting "
 
- ╭────═[💞𝕴𝖓𝖋𝖔-𝕭𝖔𝖙💖]═─────⋆
-   ╭══• ೋ•✧๑♡๑✧•ೋ •══╮
-  *𝑪𝒂𝒏𝒂𝒍 𝑶𝒇𝒊𝒄𝒊𝒂𝒍* : https://whatsapp.com/channel/0029ValIBdM2f3EI1tGGQ93S
-  *𝑺𝒐𝒑𝒐𝒓𝒕𝒆* : https://chat.whatsapp.com/LlWSHEMR67ZE8t8mfLm8fu
-  *𝑪𝒐𝒎𝒖𝒏𝒊𝒅𝒂𝒅 𝑵𝒂𝒌𝒂𝒏𝒐* :  https://chat.whatsapp.com/KdyBB9lfXJs0GAiheniJ86 
-    ╰══• ೋ•✧๑♡๑✧•ೋ •══╯
+ ╭────═[𝐈𝐍𝐅𝐎-𝐁𝐎𝐓]═─────⋆
+ ╭══• ⟡ ⟡ ⟡ ⟡ ⟡ •══╮
+  𝗖𝗿𝗲𝗮𝗱𝗼 𝗽𝗼𝗿 𝗜𝗮𝗻𝗢𝗙𝗖
+ ╰══• ⟡ ⟡ ⟡ ⟡ ⟡ •══╯
 %readmore
-╭────═[💌𝕴𝖓𝖋𝖔-𝖀𝖘𝖊𝖗💘]═─────⋆
-╭══• ೋ•✧๑♡๑✧•ೋ •══╮
-     *𝕹𝖔𝖒𝖇𝖗𝖊* : %name
-     *𝖅𝖊𝖓𝖎𝖘* : %limit
-     *𝕹𝖎𝖛𝖊𝖑* : %level
-     *𝖃𝕻* : %totalexp
-╰══• ೋ•✧๑♡๑✧•ೋ •══╯
+╭────═[𝐈𝐍𝐅𝐎-𝐔𝐒𝐄𝐑]═─────⋆
+╭══•‧ ⟡ ⟡ ⟡ ⟡ ⟡ •══╮
+     *𝗡𝗼𝗺𝗯𝗿𝗲* : %name
+     *𝗭𝗲𝗻𝗶𝘀* : %limit
+     *𝗡𝗶𝘃𝗲𝗹* : %level
+     *𝗫𝗣* : %totalexp
+╰══• ⟡ ⟡ ⟡ ⟡ ⟡ •══╯
 %readmore
-*✧･ﾟ: *✧･ﾟ:* 　💞　*:･ﾟ✧*:･ﾟ✧*
+⟡ ⟡ ⟡ ⟡ ⟡ 　☁　⟡ ⟡ ⟡ ⟡ ⟡
 
-\t\t\t*🅼 🅴 🅽 🆄 ➸ 🅲 🅾︎ 🅼 🅿︎ 🅻 🅴 🆃 🅾︎*
+\t\t\t*𝗠 𝗘 𝗡 𝗨 - 𝗖 𝗢 𝗠 𝗣 𝗟 𝗘 𝗧 𝗢*
 `.trimStart(),
-  header:  ' .·:*¨¨* ≈☆≈ *¨¨*:·.[ 💖 `MENU ✯ %category` 💞 ].·:*¨¨* ≈☆≈ *¨¨*:·.⋆\n│╭.·:*¨¨* ≈☆≈ *¨¨*:·.···',
-  body:  '> 💖│%cmd %islimit %isPremium\n',
+  header:  ' ⟡ ⟡ ⟡ ⟡ ⟡[ ⟡ `MENU ✯ %category` ⟡ ]⟡ ⟡ ⟡ ⟡ ⟡\n│╭⟡ ⟡ ⟡ ⟡ ⟡',
+  body:  '> ⚜│%cmd %islimit %isPremium\n',
   footer: '│•——————•°•✿•°•——————•···\n╰•——————•°•✿•°•——————•═┅═•——————•°•✿•°•——————•\n',
   after: `> 🚩 ${textbot}`,
 }
@@ -172,7 +168,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let pp13 = 'https://telegra.ph/file/ba7c4a3eb7bf3d892b0c8.mp4'
     let pp14 = 'https://tinyurl.com/ymlqb6ml'
     let pp15 = 'https://tinyurl.com/ykv7g4zy'
-    let gifUrl = "https://qu.ax/YoeA.mp4";await conn.sendMessage(m.chat, {video: {url: gifUrl}, gifPlayback: true, caption: text.trim(), mentions: [m.sender]}, {quoted: m});
+    let gifUrl = "https://qu.ax/mzF.mp4";await conn.sendMessage(m.chat, {video: {url: gifUrl}, gifPlayback: true, caption: text.trim(), mentions: [m.sender]}, {quoted: m});
     await m.react('💌')
    // await conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6, pp7, pp8, pp9, pp10, pp11, pp12, pp13, pp14, pp15].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
     await conn.sendFile(m.chat, img, 'thumbnail.jpg', text.trim(), m, null, rcanal)
