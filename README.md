@@ -31,4 +31,4 @@
 <div align="center">
   <h1 align="center">𝗣𝗿𝗼𝗽𝗶𝗲𝘁𝗮𝗿𝗶𝗼 𝗱𝗲𝗹 𝗯𝗼𝘁</h1>
 
-<a href="https://github.com/ianalejandrook14x"><img src="https://qu.ax/TWUg.jpg" width="300" height="300" alt="IanðŸ’ž"/></a>
+<a href="https://github.com/ianalejandrook14x"><img src="https://qu.ax/RbnL.jpg" width="300" height="300" alt="IanðŸ’ž"/></a>
