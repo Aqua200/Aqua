@@ -4,26 +4,26 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
 let tags = {
-  'main': 'I͜͡N͜͡F͜͡O͜͡',
-  'search': 'S͜͡E͜͡A͜͡R͜͡C͜͡H͜͡',
-  'game': 'G͜͡A͜͡M͜͡E͜͡',
-  'serbot': 'B͜͡O͜͡T͜͡S͜͡',
-  'rpg': 'R͜͡P͜͡G͜͡',
-  'rg': 'R͜͡E͜͡G͜͡I͜͡S͜͡T͜͡R͜͡O͜͡',
-  'sticker': 'S͜͡T͜͡I͜͡C͜͡K͜͡E͜͡R͜͡S͜͡',
-  'img': 'I͜͡M͜͡A͜͡G͜͡E͜͡',
-  'group': 'G͜͡R͜͡U͜͡P͜͡O͜͡',
+  'main': 'INFO',
+  'search': 'SEARCH',
+  'game': 'GAME',
+  'serbot': 'BOTS',
+  'rpg': 'RPG',
+  'rg': 'REGISTRO',
+  'sticker': 'STICKER',
+  'img': 'IMAGE',
+  'group': 'GRUPO',
 //  'logo': 'MAKER',
-  'nable': 'O͜͡N͜͡ ⟺ O͜͡F͜͡F͜͡', 
-  'premium': 'P͜͡R͜͡E͜͡M͜͡I͜͡U͜͡M͜͡',
-  'downloader': 'D͜͡E͜͡S͜͡C͜͡A͜͡R͜͡G͜͡A͜͡S͜͡',
-  'tools': 'T͜͡O͜͡O͜͡L͜͡S͜͡',
-  'fun': 'F͜͡U͜͡N͜͡',
-  'nsfw': 'N͜͡S͜͡F͜͡W͜͡', 
-  'cmd': 'D͜͡A͜͡T͜͡A͜͡B͜͡A͜͡S͜͡E͜͡',
-  'owner': 'O͜͡W͜͡N͜͡E͜͡R͜͡', 
-  'audio': 'A͜͡U͜͡D͜͡I͜͡O͜͡S͜͡', 
-  'advanced': 'A͜͡D͜͡V͜͡A͜͡N͜͡C͜͡E͜͡',
+  'nable': 'ON ⟺ OFF', 
+  'premium': 'PREMIUM',
+  'downloader': 'DESCARGAS',
+  'tools': 'TOOLS',
+  'fun': 'FUB',
+  'nsfw': 'NSFW', 
+  'cmd': 'DATABASE',
+  'owner': 'ONWER', 
+  'audio': 'AUDIOS', 
+  'advanced': 'ADVANCE',
 }
 
 const defaultMenu = {
@@ -53,7 +53,7 @@ const defaultMenu = {
 
 \t\t\t*🅼 🅴 🅽 🆄 ➸ 🅲 🅾︎ 🅼 🅿︎ 🅻 🅴 🆃 🅾︎*
 `.trimStart(),
-  header:  ' .·:*¨¨* ≈☆≈ *¨¨*:·.[ 💖 `M͜͡E͜͡N͜͡U͜͡ ✯ %category` 💞 ].·:*¨¨* ≈☆≈ *¨¨*:·.⋆\n│╭.·:*¨¨* ≈☆≈ *¨¨*:·.···',
+  header:  ' .·:*¨¨* ≈☆≈ *¨¨*:·.[ 💖 `MENU ✯ %category` 💞 ].·:*¨¨* ≈☆≈ *¨¨*:·.⋆\n│╭.·:*¨¨* ≈☆≈ *¨¨*:·.···',
   body:  '> 💖│%cmd %islimit %isPremium\n',
   footer: '│•——————•°•✿•°•——————•···\n╰•——————•°•✿•°•——————•═┅═•——————•°•✿•°•——————•\n',
   after: `> 🚩 ${textbot}`,
