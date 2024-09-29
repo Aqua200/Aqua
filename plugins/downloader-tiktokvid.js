@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
   try {
     let { title, author, duration, views, likes, comments_count, share_count, download_count, published, dl_url } = await Starlights.tiktokvid(text)
 
-      let txt = '`乂  T I K T O K  -  D O W N L O A D`\n\n'
+      let txt = '`𝗧 𝗜 𝗞 𝗧 𝗢 𝗞 - 𝗗 𝗢 𝗪 𝗡 𝗟 𝗢 𝗔 𝗗`\n\n'
           txt += `    ✩  *Título* : ${title}\n`
           txt += `    ✩  *Autor* : ${author}\n`
           txt += `    ✩  *Duración* : ${duration} segundos\n`
