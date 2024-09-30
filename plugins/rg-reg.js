@@ -21,12 +21,12 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.regTime = + new Date
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
-  let img = await (await fetch(`https://tinyurl.com/29jprgkw`)).buffer()
+  let img = await (await fetch(`https://qu.ax/qrJc.jpg`)).buffer()
   let txt = ` –  *ʀ ᴇ ɢ ɪ ꜱ ᴛ ʀ ᴀ ᴅ ᴏ*\n\n`
      
-      txt += `┌  ➛  *𝗡𝗼𝗺𝗯𝗿𝗲* : ${name}\n`
-      txt += `│  ➛  *𝗘𝗱𝗮𝗱* : ${age} años\n`
-      txt += `│  ➛  *𝗡𝘂𝗺𝗲𝗿𝗼 𝗱𝗲 𝘀𝗲𝗿𝗶𝗲*\n`
+      txt += `┌  ➛ 𝗡𝗼𝗺𝗯𝗿𝗲 : ${name}\n`
+      txt += `│  ➛ 𝗘𝗱𝗮𝗱 : ${age} años\n`
+      txt += `│  ➛ 𝗡𝘂𝗺𝗲𝗿𝗼 𝗱𝗲 𝘀𝗲𝗿𝗶𝗲\n`
       txt += `└  ➛  ${sn}`
       txt += ` ★★★★★★★★★★★★★`
 await conn.sendAi(m.chat, botname, textbot, txt, img, img, canal, m)
