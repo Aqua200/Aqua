@@ -26,10 +26,10 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     txt += '☁ 𝐅𝐮𝐭𝐚𝐫𝐨 𝐁𝐨𝐭 ☁';
 
     await conn.sendButton2(m.chat, txt, '. ', thumbnail, [
-        ['MP3', `${usedPrefix}ytmp3 ${url}`],
-        ['MP3DOC', `${usedPrefix}ytmp3doc ${url}`],
-        ['MP4', `${usedPrefix}ytmp4 ${url}`], 
-        ['MP4DOC', `${usedPrefix}ytmp4doc ${url}`]
+        ['MP3 ☁', `${usedPrefix}ytmp3 ${url}`],
+        ['MP3DOC ☁', `${usedPrefix}ytmp3doc ${url}`],
+        ['MP4 ☁', `${usedPrefix}ytmp4 ${url}`], 
+        ['MP4DOC ☁', `${usedPrefix}ytmp4doc ${url}`]
         ], null, [['Canal', 'https://whatsapp.com/channel/0029VallBdM2f3EI1tGGQ93S']], m);
 
     await m.react('✅');
