@@ -174,6 +174,12 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     await conn.sendFile(m.chat, img, 'thumbnail.jpg', text.trim(), m, null, rcanal)
    //await conn.sendAi(m.chat, botname, textbot, text.trim(), img, img, canal, estilo)
 
+  } catch (e) {
+    conn.reply(m.chat, '╚═ ✰ ═ ✮ :ꜱᴛᴀʀ: ✮ ═ ✰ ═╝ 𝗛𝗼𝗹𝗮 𝗰𝗼𝗺𝗼 𝗲𝘀𝘁𝗮𝘀 𝗲𝗹 𝗱𝗶𝗮 𝗱𝗲 𝗵𝗼𝘆? 𝗔𝗾𝘂𝗶 𝘁𝗶𝗲𝗻𝗲𝘀 𝗲𝗹 𝗠𝗲𝗻𝘂', m)
+    throw e
+  }
+}
+
 handler.help = ['futaro']
 handler.tags = ['main']
 handler.command = ['menu', 'help', 'futaro'] 
