@@ -1,3 +1,4 @@
+
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
@@ -22,9 +23,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
  await m.react(emojis)
 const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `*☘️ M E N U  - A U D I O S ☘️*
+ const str = `*☁ M E N U  - A U D I O S ☁*
 
 *NO ES NECESARIO USAR PREFIJO EN AUDIOS*
+∘ _Negro_
 ∘ _Noche de paz_
 ∘ _Buenos dias_
 ∘ _Audio hentai_
@@ -40,7 +42,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ∘ _Sexo_
 ∘ _Vete a la vrg_
 ∘ _Ara ara_
-∘ _Hola_
 ∘ _Un pato_
 ∘ _Nyanpasu_
 ∘ _Te amo_
@@ -170,7 +171,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 };
 handler.tags = ['main']
 handler.help = ['menu2']
-handler.command = ['menu2','menuaudios'];
+handler.command = /^(menu2|menuaudios)$/i;
 handler.register = true
 handler.exp = 50;
 handler.fail = null;
@@ -180,4 +181,4 @@ function clockString(ms) {
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
   return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
-  }
+}
