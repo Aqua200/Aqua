@@ -403,16 +403,16 @@ export async function handler(chatUpdate) {
 
 global.dfail = (type, m, conn, usedPrefix) => {
     let msg = {
-        rowner: `✯ Hola, este comando solo puede ser utilizado por el *Creador* de la Bot.`,
-        owner: `✯ Hola, este comando solo puede ser utilizado por el *Creador* de la Bot y *Sub Bots*.`,
-        mods: `✯ Hola, este comando solo puede ser utilizado por los *Moderadores* de la Bot.`,
-        premium: `✯ Hola, este comando solo puede ser utilizado por Usuarios *Premium*.`,
-        group: `✯ Hola, este comando solo puede ser utilizado en *Grupos*.`,
-        private: `✯ Hola, este comando solo puede ser utilizado en mi Chat *Privado*.`,
-        admin: `✯ Hola, este comando solo puede ser utilizado por los *Administradores* del Grupo.`,
-        botAdmin: `✯ Hola, la bot debe ser *Administradora* para ejecutar este Comando.`,
-        unreg: `✯ Hola, para usar este comando debes estar *Registrado.*\n\nPara usar el bot debes registrarte primero\n\nUtiliza: */reg nombre.edad*\n\n_Ejemplo: */reg ƒυтαяσ.18*_\n\nNo pongas los * *`,
-        restrict: `✯ Hola, esta característica está *deshabilitada.*`  
+        rowner: `✯ Hσʅα, ҽʂƚҽ ƈσɱαɳԃσ ʂσʅσ ρυҽԃҽ ʂҽɾ υƚιʅιȥαԃσ ρσɾ ҽʅ *Cɾҽαԃσɾ* ԃҽʅ Bσƚ.`,
+        owner: `✯ Hσʅα, ҽʂƚҽ ƈσɱαɳԃσ ʂσʅσ ρυҽԃҽ ʂҽɾ υƚιʅιȥαԃσ ρσɾ ҽʅ *Cɾҽαԃσɾ* ԃҽ ʅα Bσƚ ყ *Sυზ Bσƚʂ*.`,
+        mods: `✯ Hσʅα, ҽʂƚҽ ƈσɱαɳԃσ ʂσʅσ ρυҽԃҽ ʂҽɾ υƚιʅιȥαԃσ ρσɾ ʅσʂ *Mσԃҽɾαԃσɾҽʂ* ԃҽ ʅα Bσƚ.`,
+        premium: `✯ Hσʅα, ҽʂƚҽ ƈσɱαɳԃσ ʂσʅσ ρυҽԃҽ ʂҽɾ υƚιʅιȥαԃσ ρσɾ Uʂυαɾισʂ *Pɾҽɱιυɱ*.`,
+        group: `✯ Hσʅα, ҽʂƚҽ ƈσɱαɳԃσ ʂσʅσ ρυҽԃҽ ʂҽɾ υƚιʅιȥαԃσ ҽɳ *Gɾυρσʂ*.`,
+        private: `✯ Hσʅα, ҽʂƚҽ ƈσɱαɳԃσ ʂσʅσ ρυҽԃҽ ʂҽɾ υƚιʅιȥαԃσ ҽɳ ɱι Cԋαƚ *Pɾιʋαԃσ*.`,
+        admin: `✯ Hσʅα, ҽʂƚҽ ƈσɱαɳԃσ ʂσʅσ ρυҽԃҽ ʂҽɾ υƚιʅιȥαԃσ ρσɾ ʅσʂ *Aԃɱιɳιʂƚɾαԃσɾҽʂ* ԃҽʅ Gɾυρσ.`,
+        botAdmin: `✯ Hσʅα, ʅα ზσƚ ԃҽზҽ ʂҽɾ *Aԃɱιɳιʂƚɾαԃσɾα* ραɾα ҽʝҽƈυƚαɾ ҽʂƚҽ Cσɱαɳԃσ.`,
+        unreg: `✯ Hσʅα, ραɾα υʂαɾ ҽʂƚҽ ƈσɱαɳԃσ ԃҽზҽʂ ҽʂƚαɾ *Rҽɠιʂƚɾαԃσ.*\n\nPαɾα υʂαɾ ҽʅ ზσƚ ԃҽზҽʂ ɾҽɠιʂƚɾαɾƚҽ ρɾιɱҽɾσ\n\nUƚιʅιȥα: */ɾҽɠ ɳσɱზɾҽ.ҽԃαԃ*\n\nEʝҽɱρʅσ: */ɾҽɠ ƒυтαяσ.14*\n\nNσ ρσɳɠαʂ ʅσʂ * *`,
+        restrict: `✯ Hσʅα, ҽʂƚα ƈαɾαƈƚҽɾíʂƚιƈα ҽʂƚá *ԃҽʂԋαზιʅιƚαԃα.*`  
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))
 }
