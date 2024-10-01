@@ -51,7 +51,7 @@ const defaultMenu = {
 `.trimStart(),
   header:  '> ┏━ [ ⟡ `MENU ✯ %category` ⟡ ]━━━━━',
   body:  '> ⚜ >%cmd %islimit %isPremium\n',
-  footer: '> ┗━━━━━━━━━━━━━━━━━━━━━━━\n',
+  footer: '> ┗━━━━━━━━━━━━━━━━━━\n',
   after: `> ☁ ${textbot}`,
 }
 
