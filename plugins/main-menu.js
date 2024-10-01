@@ -49,7 +49,7 @@ const defaultMenu = {
 
 \t\t\t*𝗠 𝗘 𝗡 𝗨 - 𝗖 𝗢 𝗠 𝗣 𝗟 𝗘 𝗧 𝗢*
 `.trimStart(),
-  header:  '> ┏━ [ ⟡ `MENU ✯ %category` ⟡ ]━━━━━━━━━━',
+  header:  '> ┏━ [ ⟡ `MENU ✯ %category` ⟡ ]━━━━━',
   body:  '> ⚜ >%cmd %islimit %isPremium\n',
   footer: '> ┗━━━━━━━━━━━━━━━━━━━━━━━\n',
   after: `> ☁ ${textbot}`,
