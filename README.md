@@ -1,4 +1,4 @@
-![F4](https://github.com/user-attachments/assets/6b8e591a-1eac-4168-9b7b-9a7b767c0dd6)
+![F4](https://github.com/user-attachments/assets/6b8e591a-1eac-4168-9b7b-9a7b767c0dd6) 
 
 - [x]  Interacción con voz y texto
 - [x] Configuración de grupo
