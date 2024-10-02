@@ -7,7 +7,7 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 //import moment from 'moment-timezone' 
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─* 
 
 global.owner = [
   ['5493876639332', 'ιαɳαʅҽʝαɳԃɾσσƙ15x', true],
