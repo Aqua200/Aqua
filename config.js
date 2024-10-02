@@ -37,7 +37,7 @@ global.wait = 'αgυαя∂є υη мσмєηтσ, ѕσу ℓєηтσ...'
 global.botname = 'υєѕυgυι-ƒυтαяσ'
 global.textbot = `ƒυтαяσ-вσт`
 global.listo = '*αqυι тιєηєѕ*'
-global.namechannel = '『✯ 𝗧𝗲𝗮𝗺 𝗖𝗼𝗺𝘂𝗻𝗶𝘁𝘆 𝗜𝗮𝗻 ✯』'
+global.namechannel = 'Tҽαɱ Cԋαɳɳҽʅ Fυƚαɾσ 🌙 - Bყ IαɳOϝƈ'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
