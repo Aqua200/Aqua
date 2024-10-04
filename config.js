@@ -10,8 +10,8 @@ import axios from 'axios'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─* 
 
 global.owner = [
-  ['5493876639332', 'ιαɳαʅҽʝαɳԃɾσσƙ15x', true],
-  ['50587001520', 'ιαɳαʅҽʝαɳԃɾσσƙ14x', true],
+  ['526645330556', 'aqua beta0.0', true],
+  ['526645330556', 'aqua beta0.0', true],
   [''],
   [''],
   [''],
@@ -31,8 +31,8 @@ global.prems = []
    
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = ``
-global.author = '{\n "вσт": {\n   "ηαмє": "ƒυтαяσ",\n     "αυтσя": "ιαη",\n   "єѕтα∂σ": "α¢тινσ"\n }\n}'
+global.packname = `aqua beta`
+global.author = '{\n "Neykoor": {\n   "ηαмє": "ƒυтαяσ",\n     "αυтσя": "ιαη",\n   "єѕтα∂σ": "α¢тινσ"\n }\n}'
 global.wait = 'αgυαя∂є υη мσмєηтσ, ѕσу ℓєηтσ...'
 global.botname = 'υєѕυgυι-ƒυтαяσ'
 global.textbot = `ƒυтαяσ-вσт`
@@ -46,8 +46,8 @@ global.miniurl = fs.readFileSync('./storage/img/miniurl.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = 'https://chat.whatsapp.com/KiJY7gZS17aLcP6qaGatFX'
-global.canal = 'https://whatsapp.com/channel/0029ValIBdM2f3EI1tGGQ93S'
+global.group = 'https://chat.whatsapp.com/FeVH0eUOoOeIJutwdSQWFA'
+global.canal = 'https://whatsapp.com/channel/0029VarsCsD545unQ5Lw7429'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
