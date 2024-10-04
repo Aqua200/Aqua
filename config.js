@@ -32,12 +32,12 @@ global.prems = []
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = `aqua beta`
-global.author = '{\n "Neykoor": {\n   "ηαмє": "ƒυтαяσ",\n     "αυтσя": "ιαη",\n   "єѕтα∂σ": "α¢тινσ"\n }\n}'
+global.author = '{\n "Neykoor": {\n   "ηαмє": "Neykoor",\n     "αυтσя": "three",\n   "єѕтα∂σ": "α¢тινσ"\n }\n}'
 global.wait = 'αgυαя∂є υη мσмєηтσ, ѕσу ℓєηтσ...'
-global.botname = 'υєѕυgυι-ƒυтαяσ'
-global.textbot = `ƒυтαяσ-вσт`
+global.botname = 'aqua-bot'
+global.textbot = `aqua-вσт`
 global.listo = '*αqυι тιєηєѕ*'
-global.namechannel = 'Tҽαɱ Cԋαɳɳҽʅ Fυƚαɾσ 🌙 - Bყ IαɳOϝƈ'
+global.namechannel = 'Tҽα 🌙 - Bყ nerykoor'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
