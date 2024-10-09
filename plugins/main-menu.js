@@ -155,7 +155,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     
     let pp = 'https://qu.ax/SPPFv.jpeg'
     let pp2 = 'https://qu.ax/mppb.jpeg'
-    let pp3 = 'https://qu.ax/zeGSG.gif'
+    let pp3 = 'https://qu.ax/dHEeW.jpeg'
     let pp4 = 'https://qu.ax/zeGSG.gif'
     let pp5 = 'https://qu.ax/zeGSG.gif'
     let pp6 = 'https://qu.ax/zeGSG.gif'
