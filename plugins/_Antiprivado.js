@@ -12,4 +12,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
   }
   return !1;
 }
-export default handler
+handler.admin = true
+handler.group = true
+handler.botAdmin = true
+export default=handler
