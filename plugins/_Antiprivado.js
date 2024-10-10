@@ -1,4 +1,4 @@
-let handler = async
+let handler=true
 export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) {
   if (m.isBaileys && m.fromMe) return !0;
   if (m.isGroup) return !1;
@@ -15,4 +15,5 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
-export default=handler
+
+export default= handler.true
