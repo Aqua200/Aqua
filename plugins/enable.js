@@ -14,7 +14,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
           global.dfail('rower', m, conn)
           throw false
         }
-      bot . antiPrivate =isenable
+      bot. antiPrivate =isenable
       break
       
         case 'welcome':
