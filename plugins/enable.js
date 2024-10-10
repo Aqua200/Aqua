@@ -7,7 +7,16 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
   let type = (args[0] || '').toLowerCase()
   let isAll = false, isUser = false
   switch (type) {
-               
+
+      case 'antiprivado':
+    isAll = true
+        if (!isOwner) {
+          global.dfail('rower', m, conn)
+          throw false
+        }
+      bot . antiprivate =isenable
+      break
+      
         case 'welcome':
     case 'bv':
     case 'bienvenida':
